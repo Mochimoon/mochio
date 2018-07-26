@@ -2,21 +2,68 @@ body {
   font-family: "Avenir Next";
 }
 
-.container{
-  width: auto;
+
+/*レイアウト確認のための色づけ*/
+
+header{
+  background-color: blue;
 }
 
-.copy-container h1, h2{
+.container{
+  background-color: green;
+}
+
+footer{
+  background-color: red;
+}
+
+/*色づけ終わり*/
+
+header{
+  height: 50px;
+}
+
+.container{
+  width: auto;
+  height: 500px;
+  text-align: center;
+}
+
+
+
+.header-left a{
+  display: block;
+  background-color: #FFFF00;
+  width: 124px;
+  line-height: 50px;
+}
+
+.contents-wrapper h1, h2{
   text-align: center;
   font-weight: normal;
+  letter-spacing: 3;
+  opacity: 0.7;
+}
+
+.contents-wrapper h1{
+  padding-top: 5px;
+}
+
+.my-photo{
+  height: 150px;
+  width: 23%;
+  padding: 0 5px;
 }
 
 .photo1{
   float: left;
-  width: 25%
 }
 
 .photo2{
   float: left;
-  width: 25%
+  margin-top: 10px;
+}
+
+footer{
+  height: 50px;
 }
