@@ -20,14 +20,27 @@
 
   .top-wrapper{
     text-align: left;
-    padding-top: 130px;
+    padding-top: 200px;
   }
 
   .top-wrapper h1{
     font-size: 24px;
   }
-}
 
+  header{
+    height: 150px;
+  }
+
+  .logo{
+    width: 248px;
+    padding-top: 18px;
+  }
+
+  .top-wrapper{
+    padding-top: 400px;
+    padding-bottom: 200px;
+  }
+}
 
 
 /*iPhone6~用*/
@@ -42,7 +55,7 @@
 
   .top-wrapper{
     text-align: left;
-    padding-top: 130px;
+    padding-top: 200px;
   }
 
   .top-wrapper h1{
