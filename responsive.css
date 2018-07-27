@@ -59,7 +59,21 @@
   }
 
   .top-wrapper h1{
-    font-size: 24px;
+    font-size: 36px;
+  }
+
+  header{
+    height: 150px;
+  }
+
+  .logo{
+    width: 248px;
+    padding-top: 18px;
+  }
+
+  .top-wrapper{
+    padding-top: 400px;
+    padding-bottom: 200px;
   }
 }
 
@@ -75,10 +89,24 @@
 
   .top-wrapper{
     text-align: left;
-    padding-top: 130px;
+    padding-top: 200px;
   }
 
   .top-wrapper h1{
-    font-size: 24px;
+    font-size: 48px;
+  }
+
+  header{
+    height: 150px;
+  }
+
+  .logo{
+    width: 248px;
+    padding-top: 18px;
+  }
+
+  .top-wrapper{
+    padding-top: 400px;
+    padding-bottom: 200px;
   }
 }
