@@ -1,84 +1,5 @@
-@media (max-width: 1000px){
-  .photo{
-    width: 50%;
-    margin-bottom: 50;
-  }
-
-  .top-wrapper h1{
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 670px){
-  .photo{
-    width: 100%;
-  }
-
-  .btn{
-    width: 100%;
-  }
-
-  .top-wrapper{
-    text-align: left;
-    padding-top: 200px;
-  }
-
-  .top-wrapper h1{
-    font-size: 24px;
-  }
-
-  header{
-    height: 150px;
-  }
-
-  .logo{
-    width: 248px;
-    padding-top: 18px;
-  }
-
-  .top-wrapper{
-    padding-top: 400px;
-    padding-bottom: 200px;
-  }
-}
-
-
-/*iPhone6~用*/
-@media only screen and (min-device-width:375px) and (max-device-width:667px) {
-  .photo{
-    width: 100%;
-  }
-
-  .btn{
-    width: 100%;
-  }
-
-  .top-wrapper{
-    text-align: left;
-    padding-top: 200px;
-  }
-
-  .top-wrapper h1{
-    font-size: 36px;
-  }
-
-  header{
-    height: 150px;
-  }
-
-  .logo{
-    width: 248px;
-    padding-top: 18px;
-  }
-
-  .top-wrapper{
-    padding-top: 400px;
-    padding-bottom: 200px;
-  }
-}
-
-/*iPhone~plus用*/
-@media only screen and (min-device-width:414px) and (max-device-width:736px) {
+/*~iphone7*/
+@media screen and (max-width: 375px){
   .photo{
     width: 100%;
   }
@@ -108,5 +29,52 @@
   .top-wrapper{
     padding-top: 400px;
     padding-bottom: 200px;
+  }
+}
+}
+
+
+/*~iphone7plus*/
+@media screen and (max-width: 480px){
+  .photo{
+    width: 100%;
+  }
+
+  .btn{
+    width: 100%;
+  }
+
+  .top-wrapper{
+    text-align: left;
+    padding-top: 200px;
+  }
+
+  .top-wrapper h1{
+    font-size: 48px;
+  }
+
+  header{
+    height: 150px;
+  }
+
+  .logo{
+    width: 248px;
+    padding-top: 18px;
+  }
+
+  .top-wrapper{
+    padding-top: 400px;
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 1000px){
+  .photo{
+    width: 50%;
+    margin-bottom: 50;
+  }
+
+  .top-wrapper h1{
+    font-size: 32px;
   }
 }
