@@ -28,18 +28,10 @@
   }
 }
 
-@media (max-width: 1000px){
-  .photo{
-    width: 50%;
-    margin-bottom: 50;
-  }
 
-  .top-wrapper h1{
-    font-size: 32px;
-  }
-}
 
-@media (max-width: 670px){
+/*iPhone6~用*/
+@media only screen and (min-device-width:375px) and (max-device-width:667px) {
   .photo{
     width: 100%;
   }
