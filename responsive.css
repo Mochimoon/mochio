@@ -1,13 +1,3 @@
-@media (max-width: 1000px){
-  .photo{
-    width: 50%;
-    margin-bottom: 50;
-  }
-
-  .top-wrapper h1{
-    font-size: 32px;
-  }
-}
 
 @media (max-width: 670px){
   .photo{
@@ -108,5 +98,16 @@
   .top-wrapper{
     padding-top: 400px;
     padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 1000px){
+  .photo{
+    width: 50%;
+    margin-bottom: 50;
+  }
+
+  .top-wrapper h1{
+    font-size: 32px;
   }
 }
