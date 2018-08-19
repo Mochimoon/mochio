@@ -1,113 +1,455 @@
 
-@media (max-width: 670px){
-  .photo{
-    width: 100%;
-  }
 
-  .btn{
-    width: 100%;
-  }
+/*0~320px*/
+  @media{
+    .photo{
+      width: 100%;
+    }
 
-  .top-wrapper{
-    text-align: left;
-    padding-top: 200px;
-  }
+    .btn{
+      width: 100%;
+    }
 
-  .top-wrapper h1{
-    font-size: 24px;
-  }
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
 
-  header{
-    height: 150px;
-  }
+    .top-wrapper h1{
+      font-size: 36px;
+    }
 
-  .logo{
-    width: 248px;
-    padding-top: 18px;
-  }
+    .photo-wrapper h2{
+      font-size: 40px;
+    }
 
-  .top-wrapper{
-    padding-top: 400px;
-    padding-bottom: 200px;
-  }
+    .photo-wrapper p{
+      font-size: 24px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
 }
 
+  /*Android*/
+  @media (min-width: 321px) {
+    .photo{
+      width: 100%;
+    }
 
-/*iPhone6~用*/
-@media only screen and (min-device-width:375px) and (max-device-width:667px) {
-  .photo{
-    width: 100%;
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 36px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 40px;
+    }
+
+    .photo-wrapper p{
+      font-size: 24px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
   }
 
-  .btn{
-    width: 100%;
+  /*iPhone 8・iPhone X*/
+  @media (min-width: 361px) {
+    .photo{
+      width: 100%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 36px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 40px;
+    }
+
+    .photo-wrapper p{
+      font-size: 24px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
+  }
+    /*Android*/
+    @media (min-width: 376px) {
+      .photo{
+        width: 100%;
+      }
+
+      .btn{
+        width: 100%;
+      }
+
+      .top-wrapper{
+        text-align: left;
+        padding-top: 200px;
+      }
+
+      .top-wrapper h1{
+        font-size: 36px;
+      }
+
+      .photo-wrapper h2{
+        font-size: 40px;
+      }
+
+      .photo-wrapper p{
+        font-size: 24px;
+      }
+
+      header{
+        height: 150px;
+      }
+
+      .logo{
+        width: 248px;
+        padding-top: 18px;
+      }
+
+      .top-wrapper{
+        padding-top: 200px;
+        padding-bottom: 100px;
+      }
   }
 
-  .top-wrapper{
-    text-align: left;
-    padding-top: 200px;
+  /*iPhone 8+*/
+  @media (min-width: 413px) {
+    .photo{
+      width: 100%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 36px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 50px;
+    }
+
+    .photo-wrapper p{
+      font-size: 36px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 300px;
+      padding-bottom: 150px;
+    }
   }
 
-  .top-wrapper h1{
-    font-size: 36px;
+  /*iPhone SE・iPhone 8・iPhone 8+・iPhone X横 Android系横 iPad縦*/
+  @media (min-width: 415px) {
+    .photo{
+      width: 100%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 36px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 50px;
+    }
+
+    .photo-wrapper p{
+      font-size: 36px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 300px;
+      padding-bottom: 150px;
+    }
   }
 
-  header{
-    height: 150px;
+  /*PC向け*/
+  @media (min-width: 835px) {
+    .photo{
+      width: 50%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 60px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 50px;
+    }
+
+    .photo-wrapper p{
+      font-size: 24px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
   }
 
-  .logo{
-    width: 248px;
-    padding-top: 18px;
+  /*PC向け*/
+  @media (min-width: 960px) {
+    .photo{
+      width: 50%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 60px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 50px;
+    }
+
+    .photo-wrapper p{
+      font-size: 24px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 400px;
+      padding-bottom: 200px;
+    }
   }
 
-  .top-wrapper{
-    padding-top: 400px;
-    padding-bottom: 200px;
-  }
-}
+  /*iPad横 iPad Pro縦 PC向け*/
+  @media (min-width: 1024px) {
+    .photo{
+      width: 50%;
+    }
 
-/*iPhone~plus用*/
-@media only screen and (min-device-width:414px) and (max-device-width:736px) {
-  .photo{
-    width: 100%;
-  }
+    .btn{
+      width: 100%;
+    }
 
-  .btn{
-    width: 100%;
-  }
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
 
-  .top-wrapper{
-    text-align: left;
-    padding-top: 200px;
-  }
+    .top-wrapper h1{
+      font-size: 60px;
+    }
 
-  .top-wrapper h1{
-    font-size: px;
-  }
+    .photo-wrapper h2{
+      font-size: 50px;
+    }
 
-  header{
-    height: 150px;
-  }
+    .photo-wrapper p{
+      font-size: 24px;
+    }
 
-  .logo{
-    width: 248px;
-    padding-top: 18px;
-  }
+    header{
+      height: 150px;
+    }
 
-  .top-wrapper{
-    padding-top: 400px;
-    padding-bottom: 200px;
-  }
-}
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
 
-@media (max-width: 1000px){
-  .photo{
-    width: 50%;
-    margin-bottom: 50;
+    .top-wrapper{
+      padding-top: 400px;
+      padding-bottom: 200px;
+    }
   }
 
-  .top-wrapper h1{
-    font-size: 32px;
+  /*PC向け*/
+  @media (min-width: 1060px) {
+    .photo{
+      width: 50%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 70px;
+    }
+
+    .photo-wrapper h2{
+      font-size: 40px;
+    }
+
+    .photo-wrapper p{
+      font-size: 24px;
+    }
+
+    header{
+      height: 150px;
+    }
+
+    .logo{
+      width: 248px;
+      padding-top: 18px;
+    }
+
+    .top-wrapper{
+      padding-top: 400px;
+      padding-bottom: 200px;
+    }
+  }
+
+  /*iPad Pro横 PC向け*/
+  @media (min-width: 1200px) {
+    .photo{
+      width: 25%;
+    }
+
+    .btn{
+      width: 100%;
+    }
+
+    .top-wrapper{
+      text-align: left;
+      padding-top: 200px;
+    }
+
+    .top-wrapper h1{
+      font-size: 36px;
+    }
+
+    header{
+      height: 100px;
+    }
+
+    .logo{
+      width: 128px;
+      padding-top: 20px;
+    }
+
+    .top-wrapper{
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
   }
 }
